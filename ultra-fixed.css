@@ -23,7 +23,7 @@
 
 :root,
 .theme-dark {
-    --background-modifier-selected: rgba(255, 0, 0, 0);
+    --background-modifier-selected: rgba(0, 0, 0, 0);
     --background-modifier-hover: rgba(47, 0, 255, 0);
     --background-modifier-active: rgba(255, 0, 0, 0);
     --bg-base-primary: #000000;
