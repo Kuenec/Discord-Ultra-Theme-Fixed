@@ -12,7 +12,7 @@ This theme is a fixed and updated version of the popular **Ultra** theme origina
 
 ## Preview
 
-![]("https://raw.githubusercontent.com/Kuenec/Discord-Ultra-Theme-Fixed/refs/heads/main/Screenshot%202025-06-03%20093346.png")
+![](https://raw.githubusercontent.com/Kuenec/Discord-Ultra-Theme-Fixed/refs/heads/main/Screenshot%202025-06-03%20093346.png)
 
 -----
 
