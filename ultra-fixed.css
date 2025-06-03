@@ -24,8 +24,8 @@
 :root,
 .theme-dark {
     --background-modifier-selected: rgba(0, 0, 0, 0);
-    --background-modifier-hover: rgba(47, 0, 255, 0);
-    --background-modifier-active: rgba(255, 0, 0, 0);
+    --background-modifier-hover: rgba(0, 0, 0, 0);
+    --background-modifier-active: rgba(0, 0, 0, 0);
     --bg-base-primary: #000000;
 
     --font-primary: "Lato";
@@ -33,7 +33,7 @@
 
     --channel-icon: #4a4a52;
     --selected-indicator: var(--brand-experiment, #e21c1c);
-    --hover-indicator: var(--brand-experiment, #7309ff);
+    --hover-indicator: var(--brand-experiment, #040faa);
     --unread-indicator: var(--brand-experiment, #7309ff);
 
 }
