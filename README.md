@@ -1,7 +1,3 @@
-Got it\! Here's the updated README with Vencord installation instructions.
-
------
-
 # Ultra (Fixed)
 
 **A Smooth, Black Discord Theme - Updated & Working\!**
