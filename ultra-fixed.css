@@ -1,0 +1,115 @@
+/**
+ * @name Ultra (Fixed)
+ * @version 1.0.7
+ * @author Kuenec
+ * @authorId 793769386460708895
+ * @description A Smooth, Black theme
+ * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/Ultra
+ * @website https://thecommieaxolotl.netlify.app/
+ * @donate https://github.com/sponsors/thecommieaxolotl
+ * @invite https://discord.gg/tWzpQDW3yG
+*/
+
+/* Imports */
+@import url("https://raw.githubusercontent.com/Kuenec/usrbg-discord/main/usrbg.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
+
+/* Source */
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css");
+
+:root,
+.theme-dark {
+    --background-modifier-selected: rgba(255, 0, 0, 0);
+    --background-modifier-hover: rgba(47, 0, 255, 0);
+    --background-modifier-active: rgba(255, 0, 0, 0);
+    --bg-base-primary: #000000;
+
+    --font-primary: "Lato";
+    --font-code: "Source Code Pro";
+
+    --channel-icon: #4a4a52;
+    --selected-indicator: var(--brand-experiment, #e21c1c);
+    --hover-indicator: var(--brand-experiment, #7309ff);
+    --unread-indicator: var(--brand-experiment, #7309ff);
+
+}
+
+/* Capitalize channel names */
+.name__2ea32 {
+    text-transform: capitalize;
+}
+
+/* Muted Channels */
+.modeMuted__2ea32 .name__2ea32,
+.modeMuted__2ea32 .icon__2ea32 {
+    color: #2b2b2b;
+}
+
+/* Channel Icons */
+.icon__2ea32 {
+    width: 11px;
+    height: 11px;
+}
+
+/* Unread Dot */
+.unread__2ea32 {
+    background-color: var(--unread-indicator);
+    box-shadow: 0 0 20px 4px var(--unread-indicator);
+    height: 5px;
+    width: 5px;
+    top: 19px;
+    left: 6px;
+    border-radius: 50%;
+}
+
+/* Hover Logic */
+.link__2ea32:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--hover-indicator);
+    box-shadow: 0 0 10px 2px var(--hover-indicator);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    left: -9px;
+    top: 13px;
+    transition: all 0.15s ease-in-out;
+    z-index: 1;
+}
+
+/* Selected channel dot */
+.modeSelected__2ea32 .link__2ea32::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--selected-indicator);
+    box-shadow: 0 0 20px 4px var(--selected-indicator);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    left: -9px;
+    top: 13px;
+}
+
+/* Moving channels over for dot */
+.link__2ea32 {
+    left: 15px;
+    height: 30px;
+    width: calc(100% - 12px) !important;
+}
+
+/* Channel mention icon */
+.numberBadge__2b1f5 {
+    background-color: var(--brand-experiment) !important;
+}
+
+/* New message bar */
+.newMessagesBar__0f481 {
+    background-color: var(--brand-experiment);
+    box-shadow: 0 0 40px 4px var(--brand-experiment);
+}
